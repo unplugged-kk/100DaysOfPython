@@ -135,3 +135,4 @@ dmypy.json
 Python_For_Cloud/.DS_Store
 
 .DS_Store
+.idea/*
