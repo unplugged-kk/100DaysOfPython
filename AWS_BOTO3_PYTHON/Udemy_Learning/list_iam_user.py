@@ -7,7 +7,7 @@
 # ========================================
 import boto3
 
-aws_mgmt_console = boto3.session.Session(profile_name="acg")
+aws_mgmt_console = boto3.session.Session(profile_name="syler")
 iam_console = aws_mgmt_console.resource('iam')
 
 for user in iam_console.users.all():
