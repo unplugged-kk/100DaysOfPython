@@ -14,7 +14,7 @@ for instances in ec2_con_re.instances.filter(Filters=[f1]):
 print(np_servers)
 
 print("#################################")
-# if we want to start perticular instances then there is no option in resource we need to use client object
+# if we want to start particular instances then there is no option in resource we need to use client object
 
 np_server_ids = []
 

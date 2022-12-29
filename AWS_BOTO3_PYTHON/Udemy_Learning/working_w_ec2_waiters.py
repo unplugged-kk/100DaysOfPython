@@ -1,5 +1,4 @@
 import boto3
-import time
 
 aws_mgmt_console = boto3.session.Session(profile_name="syler")
 ec2_con_cli = aws_mgmt_console.client(
@@ -25,7 +24,7 @@ instance_ob.start()
 
 # boto3 waiter !!
 
-# Resouce waits for 200 secs (40 checks after 5 sec)
+# Resource waits for 200 secs (40 checks after 5 sec)
 instance_ob.wait_until_running()
 
 print(f"The EC2 instance {instance_id} is Up & running now !!")
