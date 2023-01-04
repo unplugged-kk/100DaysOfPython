@@ -1,6 +1,6 @@
 import boto3
 
-aws_mgmt_con = boto3.session.Session(profile_name="syler")
+aws_mgmt_con = boto3.session.Session(profile_name="default")
 
 # Get aws Account ID
 

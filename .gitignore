@@ -136,3 +136,7 @@ Python_For_Cloud/.DS_Store
 
 .DS_Store
 .idea/*
+
+#venv for awsboto3
+AWS_BOTO3_PYTHON/awsboto3/
+AWS_BOTO3_PYTHON/.idea/
